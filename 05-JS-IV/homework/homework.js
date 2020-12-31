@@ -93,7 +93,7 @@ function verificarPassword(usuario, password) {
   // De lo contrario, devuelve "false"
   // // Tu código:
   return usuario['password'] === password;
-  
+
   }
 
 function actualizarPassword(usuario, nuevaPassword) {
@@ -123,7 +123,6 @@ function pasarUsuarioAPremium(usuarios) {
   // Tu código:
   for (var i = 0; i <usuarios.length; i++)
   usuarios[i].esPremium = true;
-
   return usuarios;
 }
 
